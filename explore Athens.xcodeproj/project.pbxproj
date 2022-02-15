@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9BD30BE27BBF76800BFFF4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD30BD27BBF76800BFFF4D /* AppDelegate.swift */; };
+		C9BD30C027BBF76800BFFF4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD30BF27BBF76800BFFF4D /* SceneDelegate.swift */; };
+		C9BD30C227BBF76800BFFF4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD30C127BBF76800BFFF4D /* ViewController.swift */; };
+		C9BD30C527BBF76800BFFF4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BD30C327BBF76800BFFF4D /* Main.storyboard */; };
+		C9BD30C727BBF76A00BFFF4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BD30C627BBF76A00BFFF4D /* Assets.xcassets */; };
+		C9BD30CA27BBF76A00BFFF4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BD30C827BBF76A00BFFF4D /* LaunchScreen.storyboard */; };
+		C9BD30D527BBF76A00BFFF4D /* explore_AthensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD30D427BBF76A00BFFF4D /* explore_AthensTests.swift */; };
+		C9BD30DF27BBF76A00BFFF4D /* explore_AthensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD30DE27BBF76A00BFFF4D /* explore_AthensUITests.swift */; };
+		C9BD30E127BBF76A00BFFF4D /* explore_AthensUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD30E027BBF76A00BFFF4D /* explore_AthensUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9BD30D127BBF76A00BFFF4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9BD30B227BBF76800BFFF4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9BD30B927BBF76800BFFF4D;
+			remoteInfo = "explore Athens";
+		};
+		C9BD30DB27BBF76A00BFFF4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9BD30B227BBF76800BFFF4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9BD30B927BBF76800BFFF4D;
+			remoteInfo = "explore Athens";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9BD30BA27BBF76800BFFF4D /* explore Athens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "explore Athens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BD30BD27BBF76800BFFF4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9BD30BF27BBF76800BFFF4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9BD30C127BBF76800BFFF4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9BD30C427BBF76800BFFF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9BD30C627BBF76A00BFFF4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9BD30C927BBF76A00BFFF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9BD30CB27BBF76A00BFFF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9BD30D027BBF76A00BFFF4D /* explore AthensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "explore AthensTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BD30D427BBF76A00BFFF4D /* explore_AthensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = explore_AthensTests.swift; sourceTree = "<group>"; };
+		C9BD30DA27BBF76A00BFFF4D /* explore AthensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "explore AthensUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BD30DE27BBF76A00BFFF4D /* explore_AthensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = explore_AthensUITests.swift; sourceTree = "<group>"; };
+		C9BD30E027BBF76A00BFFF4D /* explore_AthensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = explore_AthensUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9BD30B727BBF76800BFFF4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BD30CD27BBF76A00BFFF4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BD30D727BBF76A00BFFF4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9BD30B127BBF76800BFFF4D = {
+			isa = PBXGroup;
+			children = (
+				C9BD30BC27BBF76800BFFF4D /* explore Athens */,
+				C9BD30D327BBF76A00BFFF4D /* explore AthensTests */,
+				C9BD30DD27BBF76A00BFFF4D /* explore AthensUITests */,
+				C9BD30BB27BBF76800BFFF4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9BD30BB27BBF76800BFFF4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9BD30BA27BBF76800BFFF4D /* explore Athens.app */,
+				C9BD30D027BBF76A00BFFF4D /* explore AthensTests.xctest */,
+				C9BD30DA27BBF76A00BFFF4D /* explore AthensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9BD30BC27BBF76800BFFF4D /* explore Athens */ = {
+			isa = PBXGroup;
+			children = (
+				C9BD30BD27BBF76800BFFF4D /* AppDelegate.swift */,
+				C9BD30BF27BBF76800BFFF4D /* SceneDelegate.swift */,
+				C9BD30C127BBF76800BFFF4D /* ViewController.swift */,
+				C9BD30C327BBF76800BFFF4D /* Main.storyboard */,
+				C9BD30C627BBF76A00BFFF4D /* Assets.xcassets */,
+				C9BD30C827BBF76A00BFFF4D /* LaunchScreen.storyboard */,
+				C9BD30CB27BBF76A00BFFF4D /* Info.plist */,
+			);
+			path = "explore Athens";
+			sourceTree = "<group>";
+		};
+		C9BD30D327BBF76A00BFFF4D /* explore AthensTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9BD30D427BBF76A00BFFF4D /* explore_AthensTests.swift */,
+			);
+			path = "explore AthensTests";
+			sourceTree = "<group>";
+		};
+		C9BD30DD27BBF76A00BFFF4D /* explore AthensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9BD30DE27BBF76A00BFFF4D /* explore_AthensUITests.swift */,
+				C9BD30E027BBF76A00BFFF4D /* explore_AthensUITestsLaunchTests.swift */,
+			);
+			path = "explore AthensUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9BD30B927BBF76800BFFF4D /* explore Athens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BD30E427BBF76A00BFFF4D /* Build configuration list for PBXNativeTarget "explore Athens" */;
+			buildPhases = (
+				C9BD30B627BBF76800BFFF4D /* Sources */,
+				C9BD30B727BBF76800BFFF4D /* Frameworks */,
+				C9BD30B827BBF76800BFFF4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "explore Athens";
+			productName = "explore Athens";
+			productReference = C9BD30BA27BBF76800BFFF4D /* explore Athens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9BD30CF27BBF76A00BFFF4D /* explore AthensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BD30E727BBF76A00BFFF4D /* Build configuration list for PBXNativeTarget "explore AthensTests" */;
+			buildPhases = (
+				C9BD30CC27BBF76A00BFFF4D /* Sources */,
+				C9BD30CD27BBF76A00BFFF4D /* Frameworks */,
+				C9BD30CE27BBF76A00BFFF4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9BD30D227BBF76A00BFFF4D /* PBXTargetDependency */,
+			);
+			name = "explore AthensTests";
+			productName = "explore AthensTests";
+			productReference = C9BD30D027BBF76A00BFFF4D /* explore AthensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9BD30D927BBF76A00BFFF4D /* explore AthensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BD30EA27BBF76A00BFFF4D /* Build configuration list for PBXNativeTarget "explore AthensUITests" */;
+			buildPhases = (
+				C9BD30D627BBF76A00BFFF4D /* Sources */,
+				C9BD30D727BBF76A00BFFF4D /* Frameworks */,
+				C9BD30D827BBF76A00BFFF4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9BD30DC27BBF76A00BFFF4D /* PBXTargetDependency */,
+			);
+			name = "explore AthensUITests";
+			productName = "explore AthensUITests";
+			productReference = C9BD30DA27BBF76A00BFFF4D /* explore AthensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9BD30B227BBF76800BFFF4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C9BD30B927BBF76800BFFF4D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C9BD30CF27BBF76A00BFFF4D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C9BD30B927BBF76800BFFF4D;
+					};
+					C9BD30D927BBF76A00BFFF4D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C9BD30B927BBF76800BFFF4D;
+					};
+				};
+			};
+			buildConfigurationList = C9BD30B527BBF76800BFFF4D /* Build configuration list for PBXProject "explore Athens" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9BD30B127BBF76800BFFF4D;
+			productRefGroup = C9BD30BB27BBF76800BFFF4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9BD30B927BBF76800BFFF4D /* explore Athens */,
+				C9BD30CF27BBF76A00BFFF4D /* explore AthensTests */,
+				C9BD30D927BBF76A00BFFF4D /* explore AthensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9BD30B827BBF76800BFFF4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BD30CA27BBF76A00BFFF4D /* LaunchScreen.storyboard in Resources */,
+				C9BD30C727BBF76A00BFFF4D /* Assets.xcassets in Resources */,
+				C9BD30C527BBF76800BFFF4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BD30CE27BBF76A00BFFF4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BD30D827BBF76A00BFFF4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9BD30B627BBF76800BFFF4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BD30C227BBF76800BFFF4D /* ViewController.swift in Sources */,
+				C9BD30BE27BBF76800BFFF4D /* AppDelegate.swift in Sources */,
+				C9BD30C027BBF76800BFFF4D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BD30CC27BBF76A00BFFF4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BD30D527BBF76A00BFFF4D /* explore_AthensTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BD30D627BBF76A00BFFF4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BD30DF27BBF76A00BFFF4D /* explore_AthensUITests.swift in Sources */,
+				C9BD30E127BBF76A00BFFF4D /* explore_AthensUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9BD30D227BBF76A00BFFF4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9BD30B927BBF76800BFFF4D /* explore Athens */;
+			targetProxy = C9BD30D127BBF76A00BFFF4D /* PBXContainerItemProxy */;
+		};
+		C9BD30DC27BBF76A00BFFF4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9BD30B927BBF76800BFFF4D /* explore Athens */;
+			targetProxy = C9BD30DB27BBF76A00BFFF4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9BD30C327BBF76800BFFF4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BD30C427BBF76800BFFF4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9BD30C827BBF76A00BFFF4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BD30C927BBF76A00BFFF4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9BD30E227BBF76A00BFFF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9BD30E327BBF76A00BFFF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9BD30E527BBF76A00BFFF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "explore Athens/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LEO.explore-Athens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9BD30E627BBF76A00BFFF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "explore Athens/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LEO.explore-Athens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9BD30E827BBF76A00BFFF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LEO.explore-AthensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/explore Athens.app/explore Athens";
+			};
+			name = Debug;
+		};
+		C9BD30E927BBF76A00BFFF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LEO.explore-AthensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/explore Athens.app/explore Athens";
+			};
+			name = Release;
+		};
+		C9BD30EB27BBF76A00BFFF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LEO.explore-AthensUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "explore Athens";
+			};
+			name = Debug;
+		};
+		C9BD30EC27BBF76A00BFFF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LEO.explore-AthensUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "explore Athens";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9BD30B527BBF76800BFFF4D /* Build configuration list for PBXProject "explore Athens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BD30E227BBF76A00BFFF4D /* Debug */,
+				C9BD30E327BBF76A00BFFF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BD30E427BBF76A00BFFF4D /* Build configuration list for PBXNativeTarget "explore Athens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BD30E527BBF76A00BFFF4D /* Debug */,
+				C9BD30E627BBF76A00BFFF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BD30E727BBF76A00BFFF4D /* Build configuration list for PBXNativeTarget "explore AthensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BD30E827BBF76A00BFFF4D /* Debug */,
+				C9BD30E927BBF76A00BFFF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BD30EA27BBF76A00BFFF4D /* Build configuration list for PBXNativeTarget "explore AthensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BD30EB27BBF76A00BFFF4D /* Debug */,
+				C9BD30EC27BBF76A00BFFF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9BD30B227BBF76800BFFF4D /* Project object */;
+}
