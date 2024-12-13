@@ -11,11 +11,12 @@
 		C9BD30C027BBF76800BFFF4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD30BF27BBF76800BFFF4D /* SceneDelegate.swift */; };
 		C9BD30C227BBF76800BFFF4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD30C127BBF76800BFFF4D /* ViewController.swift */; };
 		C9BD30C527BBF76800BFFF4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BD30C327BBF76800BFFF4D /* Main.storyboard */; };
-		C9BD30C727BBF76A00BFFF4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BD30C627BBF76A00BFFF4D /* Assets.xcassets */; };
+		C9BD30C727BBF76A00BFFF4D /* leo.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BD30C627BBF76A00BFFF4D /* leo.xcassets */; };
 		C9BD30CA27BBF76A00BFFF4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BD30C827BBF76A00BFFF4D /* LaunchScreen.storyboard */; };
 		C9BD30D527BBF76A00BFFF4D /* explore_AthensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD30D427BBF76A00BFFF4D /* explore_AthensTests.swift */; };
 		C9BD30DF27BBF76A00BFFF4D /* explore_AthensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD30DE27BBF76A00BFFF4D /* explore_AthensUITests.swift */; };
 		C9BD30E127BBF76A00BFFF4D /* explore_AthensUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD30E027BBF76A00BFFF4D /* explore_AthensUITestsLaunchTests.swift */; };
+		C9BD30FD27C81CDA00BFFF4D /* final 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C9BD30FC27C81CDA00BFFF4D /* final 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,7 @@
 		C9BD30BF27BBF76800BFFF4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C9BD30C127BBF76800BFFF4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C9BD30C427BBF76800BFFF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C9BD30C627BBF76A00BFFF4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9BD30C627BBF76A00BFFF4D /* leo.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = leo.xcassets; path = "explore Athens/leo.xcassets"; sourceTree = SOURCE_ROOT; };
 		C9BD30C927BBF76A00BFFF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9BD30CB27BBF76A00BFFF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9BD30D027BBF76A00BFFF4D /* explore AthensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "explore AthensTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +50,8 @@
 		C9BD30DA27BBF76A00BFFF4D /* explore AthensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "explore AthensUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9BD30DE27BBF76A00BFFF4D /* explore_AthensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = explore_AthensUITests.swift; sourceTree = "<group>"; };
 		C9BD30E027BBF76A00BFFF4D /* explore_AthensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = explore_AthensUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9BD30F527C6D45B00BFFF4D /* WAR_MUSEUM.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = WAR_MUSEUM.m4a; sourceTree = "<group>"; };
+		C9BD30FC27C81CDA00BFFF4D /* final 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "final 1.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +105,10 @@
 				C9BD30BD27BBF76800BFFF4D /* AppDelegate.swift */,
 				C9BD30BF27BBF76800BFFF4D /* SceneDelegate.swift */,
 				C9BD30C127BBF76800BFFF4D /* ViewController.swift */,
+				C9BD30FC27C81CDA00BFFF4D /* final 1.mlmodel */,
+				C9BD30F527C6D45B00BFFF4D /* WAR_MUSEUM.m4a */,
 				C9BD30C327BBF76800BFFF4D /* Main.storyboard */,
-				C9BD30C627BBF76A00BFFF4D /* Assets.xcassets */,
+				C9BD30C627BBF76A00BFFF4D /* leo.xcassets */,
 				C9BD30C827BBF76A00BFFF4D /* LaunchScreen.storyboard */,
 				C9BD30CB27BBF76A00BFFF4D /* Info.plist */,
 			);
@@ -232,7 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9BD30CA27BBF76A00BFFF4D /* LaunchScreen.storyboard in Resources */,
-				C9BD30C727BBF76A00BFFF4D /* Assets.xcassets in Resources */,
+				C9BD30C727BBF76A00BFFF4D /* leo.xcassets in Resources */,
 				C9BD30C527BBF76800BFFF4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BD30FD27C81CDA00BFFF4D /* final 1.mlmodel in Sources */,
 				C9BD30C227BBF76800BFFF4D /* ViewController.swift in Sources */,
 				C9BD30BE27BBF76800BFFF4D /* AppDelegate.swift in Sources */,
 				C9BD30C027BBF76800BFFF4D /* SceneDelegate.swift in Sources */,
@@ -439,6 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = STMR5TU4YP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "explore Athens/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -446,12 +453,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "LEO.explore-Athens";
+				PRODUCT_BUNDLE_IDENTIFIER = christiana;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -466,6 +474,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62UY657JFY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "explore Athens/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -473,12 +482,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "LEO.explore-Athens";
+				PRODUCT_BUNDLE_IDENTIFIER = ioannis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
