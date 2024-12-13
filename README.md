@@ -1,0 +1,1 @@
+Explore Athens is a machine‑learning application that identifies sites of great importance and narrates their history using multimedia audio or video and cross‑referencing sources. The app works as a virtual tourist guide, transforming a walk at the centre of Athens into a tour of culture and history. The project was submitted to STEM STARS Greece 2022 (5th Place Award
